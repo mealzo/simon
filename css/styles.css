@@ -1,0 +1,47 @@
+body {
+  background-color: #eee;
+}
+
+.red-button {
+  width: 100px;
+  height: 100px;
+}
+
+.red-button-active {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.blue-button {
+  width: 100px;
+  height: 100px;
+}
+
+.blue-button-active {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.green-button {
+  width: 100px;
+  height: 100px;
+}
+
+.green-button-active {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.yellow-button {
+  width: 100px;
+  height: 100px;
+}
+
+.yellow-button-active {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
