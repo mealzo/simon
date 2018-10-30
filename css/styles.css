@@ -1,5 +1,122 @@
+.container {
+  font-family: sans-serif;
+}
+
 body {
-  background-color: #eee;
+  background-image: linear-gradient(#feffff, #eee);
+}
+
+.jumbotron {
+  background-color: salmon;
+}
+
+#outer-circle {
+  margin: auto;
+   background: #303030;
+   border-radius: 50%;
+   height: 640px;
+   width: 640px;
+   position: relative;
+   /*
+    Child elements with absolute positioning will be
+    positioned relative to this div
+   */
+ }
+
+ #middle-circle {
+   position: absolute;
+   background: #303030;
+   border-radius: 50%;
+   height: 600px;
+   width: 600px;
+
+   display: block;
+   padding: 0;
+
+   border: 1px;
+
+   overflow: hidden;
+   /*
+    Put top edge and left edge in the center
+   */
+   top: 50%;
+   left: 50%;
+   margin: -300px 0px 0px -300px;
+   /*
+    Offset the position correctly with
+    minus half of the width and minus half of the height
+   */
+ }
+
+ #inner-circle {
+   position: absolute;
+   background-image: linear-gradient(#eee, #aaa);
+   border-radius: 50%;
+   border: 12px solid #303030;
+   height: 200px;
+   width: 200px;
+   /*
+    Put top edge and left edge in the center
+   */
+   top: 50%;
+   left: 50%;
+   margin: -100px 0px 0px -100px;
+   /*
+    Offset the position correctly with
+    minus half of the width and minus half of the height
+   */
+ }
+
+.inner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -24px 0px 0px -68px;
+  color: #303030;
+  font-size: 2.5em;
+  letter-spacing: 6px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+
+
+.quarter {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 300px;
+}
+
+#q1 {
+  /* background-color: #0f0; */
+  background-image: radial-gradient(#0f0, #0bc455, #194c2d);
+  outline: 4px solid #303030;
+  border: 12px solid #303030;
+  border-radius: 24%;
+}
+
+#q2 {
+  background-image: radial-gradient(red, #e00808, #4c1818);
+  outline: 4px solid #303030;
+  border: 12px solid #303030;
+  border-radius: 24%;
+}
+
+#q3 {
+  /* background-color: yellow; */
+  background-image: radial-gradient(yellow, #c0c40b, #484c19);
+  outline: 4px solid #303030;
+  border: 12px solid #303030;
+  border-radius: 24%;
+}
+
+#q4 {
+  background-image: radial-gradient(blue, #0b45c4, #19224c);
+  outline: 4px solid #303030;
+  border: 12px solid #303030;
+  border-radius: 24%;
 }
 
 .red-button {

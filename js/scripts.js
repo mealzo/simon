@@ -35,12 +35,41 @@ var yellowPress = 0;
 function rndNumber() {
   return Math.floor(Math.random() * 4) + 1;
 };
+
+// array of computer-generated presses
  simonArray = [];
+
+ // generate random number between 1 and 4
  function rndArray() {
   for (var i = 0; i < array.length; i++) {
     simonArray.push(x);
   }
 };
+// play audio
+function playSample(sampleName) {
+  var sample = document.getElementById(sampleName);
+    if (sample.paused) {
+        sample.play();
+    }else{
+        sample.currentTime = 0
+    }
+}
+
+$(document).ready(function() {
+  $("#q1").click(function() {
+    playSample("green-sound");
+  });
+  $("#q2").click(function() {
+    playSample("red-sound");
+  });
+  $("#q3").click(function() {
+    playSample("yellow-sound");
+  });
+  $("#q4").click(function() {
+    playSample("blue-sound");
+  });
+});
+
  // user logic
 $(document).ready(function() {
 //AMELIA'S USER LOGIC
