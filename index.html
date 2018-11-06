@@ -11,30 +11,15 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <button class="red-button" id="red" type="button" name="button1">red</button>
-        </div>
-        <div class="col-md-6">
-          <button class="blue-button" id="blue" type="button" name="button2">blue</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <button class="green-button" id="green" type="button" name="button3">green</button>
-        </div>
-        <div class="col-md-6">
-          <button class="yellow-button" id="yellow" type="button" name="button4">yellow</button>
-        </div>
-      </div>
 
+      <h1>Simon Game</h1>
         <br>
       <hr>
-      <button id="test-button" type="button" name="test">random # to array</button>
+      <button id="start-button" type="button" name="test">start game</button>
       <button id="new-button" type="button" name="test">log array</button>
       <button id="stop-time" type="button" name="test">stop timer</button>
       <button id="activate-buttons" type="button" name="test">activate</button>
-      </div>
+
 
       <audio src="media/green-sound.wav" autostart=false id="green-sound"></audio>
       <audio src="media/red-sound.wav" autostart=false id="red-sound"></audio>
@@ -42,14 +27,15 @@
       <audio src="media/blue-sound.wav" autostart=false id="blue-sound"></audio>
       <div id="outer-circle">
         <div id="middle-circle">
-          <div id="q1" class="quarter"></div>
-          <div id="q2" class="quarter"></div>
-          <div id="q3" class="quarter"></div>
-          <div id="q4" class="quarter"></div>
+          <div id="q1" class="quarter green"></div>
+          <div id="q2" class="quarter red"></div>
+          <div id="q3" class="quarter yellow"></div>
+          <div id="q4" class="quarter blue"></div>
           <div id="inner-circle">
             <p class="inner-text">simon</p>
           </div>
         </div>
       </div>
+    </div>
   </body>
 </html>

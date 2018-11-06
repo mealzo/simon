@@ -96,6 +96,12 @@ body {
   border: 12px solid #303030;
   border-radius: 24%;
 }
+/* .green-active{
+  background-image: radial-gradient(#90ee90, #0bc455, #194c2d);
+  outline: 4px solid #303030;
+  border: 12px solid #303030;
+  border-radius: 24%
+} */
 
 #q2 {
   background-image: radial-gradient(red, #e00808, #4c1818);
@@ -103,6 +109,12 @@ body {
   border: 12px solid #303030;
   border-radius: 24%;
 }
+/* .red-active {
+  background-image: radial-gradient(tomato, #e00808, #4c1818);
+  outline: 4px solid #303030;
+  border: 12px solid #303030;
+  border-radius: 24%;
+} */
 
 #q3 {
   /* background-color: yellow; */
@@ -111,6 +123,13 @@ body {
   border: 12px solid #303030;
   border-radius: 24%;
 }
+/* .yellow-active {
+  /* background-color: yellow; */
+  /* background-image: radial-gradient(chartreuse, #c0c40b, #484c19);
+  outline: 4px solid #303030;
+  border: 12px solid #303030;
+  border-radius: 24%;
+/* } */ 
 
 #q4 {
   background-image: radial-gradient(blue, #0b45c4, #19224c);
@@ -118,8 +137,14 @@ body {
   border: 12px solid #303030;
   border-radius: 24%;
 }
+/* .blue-active {
+  background-image: radial-gradient(skyblue, #0b45c4, #19224c);
+  outline: 4px solid #303030;
+  border: 12px solid #303030;
+  border-radius: 24%;
+} */
 
-.red-button {
+/* .red-button {
   width: 100px;
   height: 100px;
 }
@@ -161,4 +186,4 @@ body {
   width: 100px;
   height: 100px;
   background-color: yellow;
-}
+} */
